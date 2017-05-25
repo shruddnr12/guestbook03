@@ -33,17 +33,7 @@ public class GuestbookController {
 		guestbookDao.insert(vo);
 		return "redirect:/list";
 	}
-	
-//	/*많이 쓰는 방식*/
-//	@RequestMapping( "/hello3" ) 
-//	public String hello3(Model model,
-//			@RequestParam("n") String name){
-//		
-//		model.addAttribute("name",name);
-//		return "/WEB-INF/views/hello.jsp"; 
-//		 
-//	}
-	
+
 
 	
 	@RequestMapping("/delete/{no}")
